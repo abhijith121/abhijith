@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bluestyle.css" rel="stylesheet" type="text/css">
+    <title>Registration form</title>
+</head>
+<body style="background-color:rgb(88, 144, 151);">
+    <h1>Registration form</h1>
+    <p style="font-size: 20px ;">Enter your details below</p>
+    <div>
+        <form method="post" target="_blank">
+            <ul>
+                <li><input type="text" value="your name" required placeholder="Name"></li>
+                <br>
+                <li><input type="email" value="xxxxxxx@email.com" required placeholder="email"></li>
+                <br>
+                <li><input type="password" required placeholder="password" 
+                    minlength="8" maxlength="15"></li>
+            </ul>
+            <p><span class="aaa">! create password with length 8-15 characters !</span></p>
+            <ul>
+                <li><input type="number" required placeholder="+91 mobile number"
+                name="mobile number"></li>
+            </ul>
+        </form>
+    </div>
+    <div>
+        <h2>Education and work details</h2>
+        <p>select your profession</p>
+        <form>
+            <ul>
+                <li>
+                    <input id="student" type="radio" , name="profession" value="student">
+                    <label for="student">student</label>
+                    <input id="teacher" type="radio" , name="profession" value="teacher">
+                    <label for="teacher">teacher</label>
+                    <input id="developer" type="radio" , name="profession" value="developer">
+                    <label for="developer">developer</label>
+                </li>
+                <br>
+                <li>
+                    <label for="stage">select yur stage if you are (student)</label>
+                    <select name="stage" id="stage">
+                        <optgroup label="primary stage">
+                            <option value="first primary">first primary</option>
+                            <option value="second primary">second primary</option>
+                            <option value="third primary">third primary</option>
+                        </optgroup>
+                        <optgroup label="creation stage">
+                            <option value="first creation">first creation</option>
+                            <option value="second creation">second creation</option>
+                            <option value="third creation">third creation</option>
+                        </optgroup>
+                    </select>
+                </li>
+    </div>
+    <div>
+        <form>
+            <ul>    
+            
+                <li>
+                    <label for="dob">Enter your date of birth</label>
+                    <input type="date" name="date" id="dob">
+                </li>
+            </ul> <br>
+            <p><span class="aaa" ><i> additional info can be written here </i></span></p>
+            <ul>
+                <li>
+                    <label for="notes">notes</label>
+                    <input type="text" placeholder="notes" name="notes">
+                </li>
+            </ul>
+            <hr>
+            <input type="submit">
+            <input type="Reset" value="Reset" id="Reset">
+
+        </form>  
+    </div>
+    
+
+</body>
+</html>

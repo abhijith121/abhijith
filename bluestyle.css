@@ -1,0 +1,14 @@
+div{
+    border: 2px solid burlywood;
+    width: 500px;
+    padding: 10px;
+    margin: 0px;
+    font-size: 15px;
+}
+.aaa{
+    background-color: aquamarine;
+    border: 1px solid yellow;
+    width: 500px;
+    padding: 5px;
+    margin: 0px;
+}
