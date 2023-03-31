@@ -1,0 +1,51 @@
+.insta{
+    border: 10px solid white;
+    border-radius: 50px;
+    padding: 100px;
+    background: radial-gradient(circle at 25% 108% , white 0% , yellow 5% , orange 25% , red 45% ,purple 80% , blue 95% );
+    height:500px ;
+    width: 500px;
+    margin: auto;
+
+}
+.insta1{
+    border: 25px solid white;
+    border-radius: 50px;
+    height:390px;
+    width: 390px;
+    margin: auto;
+    padding: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100px 150px 100px;
+    grid-template-rows: 100px 150px 100px;
+    gap: 10px 10px;
+    justify-content: space-evenly;
+}
+.grid-item{
+    height: 0px;
+    width: 0px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.grid-item5{  
+  border: 20px solid white;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  position: relative ;
+  justify-self: center;
+}
+.grid-item3{
+    height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  justify-self: right;
+  background-color: antiquewhite;
+}
+.abhi{
+    background-color: black;
+}
